@@ -3,7 +3,6 @@
 body{
     font-family: BKoodakBold;
     text-align: right;
-    background: linear-gradient(to bottom, rgba(33, 33, 33, 0) 0%, #FFFFFF 100%) repeat scroll 0 0 transparent;
 }
 h1,h2,h3,h4,h5,h6,li,a,p,small{
     font-family: BKoodakBold;
@@ -23,4 +22,13 @@ img {
 }
 .center{
     text-align: center;
+}
+.title{
+    font-family: titr;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
 }
