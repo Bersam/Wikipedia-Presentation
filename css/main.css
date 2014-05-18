@@ -32,3 +32,7 @@ img {
 .right{
     float:right;
 }
+.english{
+    font-family: tahoma;
+    direction: ltr
+}
