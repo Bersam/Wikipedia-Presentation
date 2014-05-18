@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=1024" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/impress-demo.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/googlecode.css">
+<link rel="stylesheet" href="css/fonts.min.css">
+<script src="js/jquery-2.0.3.min.js"></script>
+<script src="js/highlight.pack.js"></script>
+<script>
+    hljs.initHighlightingOnLoad();
+    var beep = function(){
+        var audioContext = window.audioContext || new webkitAudioContext();
+        var osc = audioContext.createOscillator();
+        osc.connect(audioContext.destination);
+        osc.start(0);
+        osc.frequency.setValueAtTime(440, 1);
+        osc.stop(1);
+    };
+</script>
+<style>
+    body{
+        font-family: BKoodakBold;
+        text-align: right;
+    }
+    h1,h2,h3,h4,h5,h6,li,a,p,small{
+        font-family: BKoodakBold;
+        direction: rtl;
+    }
+    small{
+        font-size: 80%;
+        text-align: left;
+        display: block;
+    }
+    ul.much li{
+        margin-top: 5%;
+    }
+    img {
+        margin: 0 10% 5% 0;
+        width: 80%;
+    }
+</style>
+<title>انقلاب فرانسه</title>
+</head>
+<body>
+<div id="impress">
+    <!-- <div id="overview" class="step" data-x="0" data-y="0" data-scale="10"> -->
+    <!-- </div> -->
+    <div id="maintitle" class="step title" data-x="-2500" data-y="-2000" data-scale="5">
+        <h1>انقلاب فرانسه</h1>
+    </div>
+    <div class="step title" data-x="-5000" data-y="-3000">
+        <h1>چند سوال؟</h1>
+    </div>
+    <div class="step slide" data-x="-5000" data-y="-3000">
+        <div class="body">
+            <h1>؟</h1>
+            <ul style="line-height: 200%; margin: 5% 20%;">
+                <li>انقلاب فرانسه چه نوع انقلابی بود؟</li>
+                <li>چرا انقلاب کردن؟</li>
+                <li>اولین جرقه انقلاب چی بود؟</li>
+                <li>چه اتفاق مهمی افتاده؟</li>
+                <li>نتیجه‌ی این انقلاب چی شد؟</li>
+            </ul>
+        </div>
+    </div>
+    <div class="step slide" data-x="-3500" data-y="-2500">
+        <h1>انقلاب فرانسه</h1>
+        <div class="body">
+            <ul style="line-height: 200%; margin: 10% 10%;" class="much">
+                <li>زمان: سال ۱۷۸۹ تا ۱۷۹۹ میلادی</li>
+                <li>چه کسانی: مردم فرانسه</li>
+                <li>علیه: سلطنت لوئی شانزدهم، نظام فئودالی، اشراف و روحانیون</li>
+                <li>نوع انقلاب: قرمز، بیش از چهل هزار کشته</li>
+                <li>دستاورد‌ها: اصول جدایی دین از سیاست، روشن‌گری، ملی‌گرایی، دموکراسی و حقوق شهروندی</li>
+            </ul>
+            <small>ویکی‌پدیا، کتاب انقلاب فرانسه</small>
+        </div>
+    </div>
+    <div class="step slide" data-x="-5000" data-y="-2000">
+        <h1>چرا انقلاب کردن؟ (دلایل اقتصادی)</h1>
+        <div class="body">
+            <ul style="line-height: 200%; margin: 10% 10%;" class="much">
+                <li>ورشکستگی مالی، جنگ‌های لوئی پانزدهم و کمک لوئی شانزدهم به آمریکایی‌ها</li>
+                <li>سیستم اقتصادی بی‌کفایت و سیستم مالیاتی ناتوان</li>
+                <li>دیمه کلیسا کاتولیک بر محصولات کشاورزی</li>
+                <li>ولخرجی‌های اشراف دربار لوئی شانزدهم</li>
+                <li>بیکاری، قحطی، سو تغذیه، نبود بازرگانی داخلی</li>
+            </ul>
+            <small>بریتانیکا، ویکی‌پدیا و دانشنامه انکاترا</small>
+        </div>
+    </div>
+    <div class="step slide" data-x="-3500" data-y="-1500">
+        <h1>چرا انقلاب کردن؟ (دلایل اجتماعی)</h1>
+        <div class="body">
+            <ul style="line-height: 200%; margin: 10% 10%;" class="much">
+                <li>نفرت از حکومت استبدادی سلطنتی</li>
+                <li>خشم طبقه بازرگان و اهل فن از امتیازات و تسلط اشراف</li>
+                <li>خشم کشاورزان، مستمری‌گیران، بر امتیازات ارباب‌وار اشراف</li>
+                <li>ناراحتی بر امتیازات روحانیون و آزادی ادیان</li>
+                <li>آزادی و جمهوریت</li>
+            </ul>
+            <small>ویکی‌پدیا، کتاب انقلاب فرانسه</small>
+        </div>
+    </div>
+    <div class="step slide" data-x="-5000" data-y="-1000">
+        <h1>اولین جرقه انقلاب!</h1>
+        <div class="body">
+            <img src="./images/Prise_de_la_Bastille.jpg"/>
+            <small>پدیدآور، Jean-Pierre Houël</small>
+        </div>
+    </div>
+    <div class="step slide" data-x="-3500" data-y="-500">
+        <h1>اعدام لوئی شانزدهم و همسرش ماری آنتوانت</h1>
+        <div class="body">
+            <img src="./images/Ludvig_XVI_av_Frankrike_porträtterad_av_AF_Callet.jpg"/>
+            <small>پدیدآور، Den fjättrade ankan</small>
+        </div>
+    </div>
+    <div class="step slide" data-x="-5000" data-y="0">
+        <h1>سواری اشراف و روحانیون بر کشاورز</h1>
+        <div class="body">
+            <img src="./images/Troisordres.jpg"/>
+            <small>پدیدآور، ناشناس</small>
+        </div>
+    </div>
+    <div class="step slide" data-x="-3500" data-y="500">
+        <h1>شرکت زنان کارگر در انقلاب</h1>
+        <div class="body">
+            <img src="./images/Women's_March_on_Versailles01.jpg"/>
+            <small>پدیدآور، ناشناس</small>
+        </div>
+    </div>
+    <div class="step slide" data-x="-5000" data-y="1000">
+        <h1 style="font-size: 46px;">جنگ ارتش انقلاب فرانسه با استرالیا، آلمان و بریتانیا</h1>
+        <div class="body">
+            <img src="./images/750px-Bataille_de_Fleurus_1794.JPG"/>
+            <small>پدیدآور، Jean Baptiste Mauzaisse</small>
+        </div>
+    </div>
+    <div class="step slide" data-x="-3500" data-y="1500">
+        <h1 style="direction: ltr; text-align: left;">Liberté, Égalité, Fraternité<h1>
+        <div class="body">
+            <img src="./images/France_-_P_-_1_-_Franc_-_1988_-_Charles_de_Gaule_5ième_République_-_A.png"/>
+            <small>پدیدآور، Frédéric Virot</small>
+        </div>
+    </div>
+    <div id="overview" class="step" data-x="-5000" data-y="-500" data-scale="8"> </div>
+</div>
+<script src="js/impress.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+$(document).ready(function() {
+        impress().init();
+        $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+    });
+</script>
+
+</body>
+</html>
